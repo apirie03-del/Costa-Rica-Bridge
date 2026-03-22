@@ -4,219 +4,340 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Costa Rica Bridge Advisory</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
+  <meta
+    name="description"
+    content="Costa Rica Bridge Advisory helps international clients explore Costa Rica with trusted guidance, context, and connections."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand">
+        Costa Rica Bridge Advisory <span class="brand-flag" aria-hidden="true">🇨🇷</span>
+      </a>
 
-<header class="site-header">
-  <div class="container nav-wrap">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#our-story">Our Story</a>
+        <a href="#founder">Founder</a>
+        <a href="#who-we-help">Who We Help</a>
+        <a href="#services">Services</a>
+        <a href="#common-mistakes">Common Mistakes</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-    <!-- ✅ FLAG FIXED HERE -->
-    <a href="#hero" class="brand">
-      Costa Rica Bridge Advisory <span class="brand-flag">🇨🇷</span>
-    </a>
+      <a href="#contact" class="nav-cta">Start Here</a>
 
-    <nav class="site-nav">
-      <a href="#our-story">Our Story</a>
-      <a href="#founder">Founder</a>
-      <a href="#who-we-help">Who We Help</a>
-      <a href="#services">Services</a>
-      <a href="#common-mistakes">Common Mistakes</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <a href="#contact" class="nav-cta">Start Here</a>
-
-  </div>
-</header>
-
-<main>
-
-<!-- HERO -->
-<section id="hero" class="hero">
-  <div class="container hero-grid">
-
-    <div>
-      <p class="eyebrow">CANADA · U.S. · EUROPE ↔ COSTA RICA</p>
-
-      <h1>
-        Helping International Clients Make Smarter Decisions About Costa Rica
-      </h1>
-
-      <p class="hero-text">
-        Practical guidance for people exploring relocation, real estate, business,
-        and long-term opportunities in Costa Rica.
-      </p>
-
-      <a href="#contact" class="btn-primary">Start Here</a>
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
+  </header>
 
-    <div class="hero-media">
-      <!-- ✅ IMAGE FIXED -->
-      <img src="./assets/hero.jpg.jpg" alt="Costa Rica coastline aerial view">
-    </div>
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">CANADA · U.S. · EUROPE ↔ COSTA RICA</p>
+          <h1>Helping International Clients Make Smarter Decisions About Costa Rica</h1>
+          <p class="hero-text">
+            Practical guidance for people exploring relocation, real estate, business, and
+            long-term opportunities in Costa Rica.
+          </p>
 
-  </div>
-</section>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Start Here</a>
+            <a href="#services" class="btn btn-secondary">View Services</a>
+          </div>
+        </div>
 
-<!-- OUR STORY -->
-<section id="our-story" class="section">
-  <div class="container two-col">
-
-    <div>
-      <h2>Our Story</h2>
-
-      <p>
-        The Pirie family’s connection to Costa Rica dates back over a century,
-        when our great-grandfather left Canada and built a life in the country.
-      </p>
-
-      <p>
-        Since then, our family has remained deeply connected to both places,
-        creating a strong understanding of each environment.
-      </p>
-    </div>
-
-    <div class="image-card">
-      <!-- ✅ IMAGE FIXED -->
-      <img src="./assets/AP%20a%20caballo%20frente%20a%20iglesia.avif">
-    </div>
-
-  </div>
-</section>
-
-<!-- FOUNDER -->
-<section id="founder" class="section alt">
-  <div class="container two-col">
-
-    <div class="image-card">
-      <!-- ✅ IMAGE FIXED -->
-      <img src="./assets/Alex%20Pirie.png">
-    </div>
-
-    <div>
-      <h2>About the Founder</h2>
-
-      <p>
-        I was raised between Canada and Costa Rica, which gave me real,
-        first-hand experience navigating both worlds.
-      </p>
-
-      <p>
-        This advisory was created to help others move forward with better
-        context, stronger preparation, and more confidence.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<!-- WHO WE HELP -->
-<section id="who-we-help" class="section">
-  <div class="container">
-
-    <h2>Who We Help</h2>
-
-    <div class="cards">
-
-      <div class="card">
-        <h3>Investors</h3>
-        <p>Exploring real estate or business opportunities</p>
+        <div class="hero-media">
+          <img
+            src="./assets/hero.jpg.jpg"
+            alt="Costa Rica coastline aerial view"
+            class="hero-image"
+          />
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Relocators</h3>
-        <p>Planning a move or lifestyle change</p>
+    <section class="intro-strip">
+      <div class="container">
+        <p>
+          A clear first step for international clients who want trusted context before making
+          important decisions in Costa Rica.
+        </p>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Entrepreneurs</h3>
-        <p>Looking to establish or expand operations</p>
+    <section id="our-story" class="section">
+      <div class="container split-layout">
+        <div class="section-copy">
+          <p class="section-label">OUR STORY</p>
+          <h2>A Family Bridge Between Canada and Costa Rica</h2>
+          <p>
+            The Pirie family’s connection to Costa Rica dates back over a century, when our
+            great-grandfather left Canada and built a life in the country.
+          </p>
+          <p>
+            Since then, our family has remained closely connected to both places, creating a
+            lasting understanding of the people, culture, and realities on both sides.
+          </p>
+        </div>
+
+        <div class="image-card">
+          <img
+            src="./assets/AP%20a%20caballo%20frente%20a%20iglesia.avif"
+            alt="Historic Pirie family image in Costa Rica"
+            class="section-image"
+          />
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Explorers</h3>
-        <p>Want clarity before making decisions</p>
+    <section id="founder" class="section section-alt">
+      <div class="container split-layout reverse">
+        <div class="image-card founder-card">
+          <img
+            src="./assets/Alex%20Pirie.png"
+            alt="Alex Pirie"
+            class="section-image profile-image"
+          />
+        </div>
+
+        <div class="section-copy">
+          <p class="section-label">FOUNDER</p>
+          <h2>Local Understanding, International Perspective</h2>
+          <p>
+            I was raised between Canada and Costa Rica, which gave me first-hand experience with
+            both environments, both cultures, and both ways of doing things.
+          </p>
+          <p>
+            Costa Rica Bridge Advisory was created to help clients move forward with better
+            context, stronger preparation, and more confidence from the start.
+          </p>
+        </div>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    <section id="who-we-help" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">WHO WE HELP</p>
+          <h2>Built for Serious Explorers and Decision-Makers</h2>
+        </div>
 
-<!-- SERVICES -->
-<section id="services" class="section alt">
-  <div class="container">
+        <div class="card-grid four">
+          <article class="info-card">
+            <h3>Investors</h3>
+            <p>Exploring real estate or business opportunities in Costa Rica.</p>
+          </article>
 
-    <h2>How We Help</h2>
+          <article class="info-card">
+            <h3>Relocators</h3>
+            <p>Planning a move, a second home, or a long-term lifestyle change.</p>
+          </article>
 
-    <div class="cards">
+          <article class="info-card">
+            <h3>Entrepreneurs</h3>
+            <p>Looking to establish, expand, or evaluate operations in the country.</p>
+          </article>
 
-      <div class="card">
-        <h3>Initial Consultation</h3>
-        <p>Understand your situation and goals</p>
+          <article class="info-card">
+            <h3>Families & Explorers</h3>
+            <p>Wanting clarity before making meaningful personal or financial commitments.</p>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Strategy Session</h3>
-        <p>Clear direction tailored to you</p>
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">SERVICES</p>
+          <h2>How We Help</h2>
+          <p class="section-subtext">
+            Focused support designed to help you start with the right information and direction.
+          </p>
+        </div>
+
+        <div class="card-grid three">
+          <article class="service-card">
+            <h3>Initial Consultation</h3>
+            <p>We discuss your goals, priorities, and the type of decision you are evaluating.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Strategy Session</h3>
+            <p>You receive practical guidance tailored to your situation and next steps.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Trusted Connections</h3>
+            <p>When appropriate, we help connect you with reliable professionals in Costa Rica.</p>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Connections</h3>
-        <p>Access to trusted professionals</p>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="section-label">PROCESS</p>
+          <h2>A Simple Way to Begin</h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <span class="step-number">01</span>
+            <h3>Reach Out</h3>
+            <p>Share what you are exploring and what kind of help you need.</p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-number">02</span>
+            <h3>Clarify the Direction</h3>
+            <p>We identify the smartest path based on your goals and timeline.</p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-number">03</span>
+            <h3>Move Forward Well Prepared</h3>
+            <p>Continue with better context, clearer expectations, and trusted support.</p>
+          </div>
+        </div>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    <section id="common-mistakes" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">COMMON MISTAKES</p>
+          <h2>Where People Often Go Wrong</h2>
+        </div>
 
-<!-- COMMON MISTAKES -->
-<section id="common-mistakes" class="section">
-  <div class="container">
+        <div class="mistakes-list">
+          <article class="mistake-item">
+            <h3>Moving too fast</h3>
+            <p>Important decisions are sometimes made before the right context is in place.</p>
+          </article>
 
-    <h2>Common Mistakes</h2>
+          <article class="mistake-item">
+            <h3>Relying on incomplete information</h3>
+            <p>Online advice can sound convincing while leaving out critical local realities.</p>
+          </article>
 
-    <div class="cards">
-
-      <div class="card">
-        <h3>Moving Too Fast</h3>
-        <p>Decisions made without full context</p>
+          <article class="mistake-item">
+            <h3>Choosing the wrong people too early</h3>
+            <p>Early introductions matter, and the wrong starting point can become expensive.</p>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Incomplete Information</h3>
-        <p>Online advice missing key realities</p>
+    <section class="section trust-section">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="section-label">WHY US</p>
+          <h2>Why Costa Rica Bridge Advisory</h2>
+        </div>
+
+        <div class="card-grid three">
+          <article class="info-card">
+            <h3>Deep Roots</h3>
+            <p>A long-standing family connection to Costa Rica and a real understanding of both worlds.</p>
+          </article>
+
+          <article class="info-card">
+            <h3>Independent Guidance</h3>
+            <p>Advice centered on helping you think clearly before bigger commitments are made.</p>
+          </article>
+
+          <article class="info-card">
+            <h3>Trusted Network</h3>
+            <p>Access to reliable introductions when your situation calls for the right specialists.</p>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Wrong Connections</h3>
-        <p>Starting with the wrong people early</p>
+    <section class="section section-alt faq-section">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="section-label">FAQ</p>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Do you provide legal or financial services directly?</summary>
+            <p>
+              No. Costa Rica Bridge Advisory provides guidance, context, and introductions. Formal
+              legal, tax, or other regulated work should be handled by the appropriate professionals.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Who is this for?</summary>
+            <p>
+              It is designed for international clients considering relocation, real estate,
+              business, or broader life decisions connected to Costa Rica.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>What is the best way to begin?</summary>
+            <p>
+              Start with a consultation so your situation can be reviewed properly before larger
+              steps are taken.
+            </p>
+          </details>
+        </div>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <p class="section-label">CONTACT</p>
+        <h2>Start Here</h2>
+        <p class="contact-text">
+          If you are seriously exploring Costa Rica and want a smarter first step, get in touch.
+        </p>
 
-<!-- CONTACT -->
-<section id="contact" class="section contact">
-  <div class="container center">
+        <div class="contact-actions">
+          <a href="mailto:your@email.com" class="btn btn-primary">Email Us</a>
+          <a href="#hero" class="btn btn-secondary">Back to Top</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <h2>Start Here</h2>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const siteNav = document.querySelector('.site-nav');
 
-    <p>
-      If you are seriously exploring Costa Rica, this is your best first step.
-    </p>
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener('click', () => {
+        const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', String(!expanded));
+        siteNav.classList.toggle('is-open');
+      });
 
-    <a href="mailto:your@email.com" class="btn-primary">Contact</a>
-
-  </div>
-</section>
-
-</main>
-
+      siteNav.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          siteNav.classList.remove('is-open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+  </script>
 </body>
 </html>
