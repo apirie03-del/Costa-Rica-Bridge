@@ -154,10 +154,10 @@ a {
 }
 
 .hero h1 {
-  margin: 0;
+  margin: 0 0 18px;
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(3.8rem, 7vw, 6.1rem);
-  line-height: 0.94;
+  line-height: 1.02;
   color: var(--green);
   letter-spacing: -0.03em;
   max-width: 12ch;
@@ -245,10 +245,10 @@ a {
 .section-heading h2,
 .section-copy h2,
 .contact-box h2 {
-  margin: 0;
+  margin: 0 0 16px;
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(2.6rem, 4.4vw, 4rem);
-  line-height: 1;
+  line-height: 1.08;
   color: var(--green);
   letter-spacing: -0.02em;
 }
