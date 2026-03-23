@@ -77,8 +77,8 @@ a {
 
 .brand-flag {
   margin-left: 6px;
-  font-size: 1.05em;
-  vertical-align: middle;
+  font-size: 0.9em;
+  display: inline-block;
 }
 
 .site-nav {
