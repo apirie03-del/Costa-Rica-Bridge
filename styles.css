@@ -194,6 +194,13 @@ a {
   margin-top: 28px;
 }
 
+.hero-trust {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #7a807a;
+  letter-spacing: 0.02em;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
