@@ -77,9 +77,14 @@ a {
 
 .brand-flag {
   margin-left: 6px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.brand-flag img {
   height: 14px;
   width: auto;
-  vertical-align: middle;
+  display: inline-block;
 }
 
 .site-nav {
