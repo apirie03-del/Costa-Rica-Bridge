@@ -574,6 +574,42 @@ a {
   justify-content: center;
 }
 
+/* ── Currency Switcher ────────────────────────────────── */
+
+.currency-switcher {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: rgba(35, 77, 58, 0.08);
+  border-radius: 999px;
+  padding: 3px;
+}
+
+.currency-btn {
+  border: none;
+  background: transparent;
+  color: var(--green);
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 5px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.currency-btn.active {
+  background: var(--green);
+  color: var(--white);
+}
+
+.currency-btn:hover:not(.active) {
+  background: rgba(35, 77, 58, 0.12);
+}
+
+/* ── End Currency Switcher ────────────────────────────── */
+
 /* ── Book Page ────────────────────────────────────────── */
 
 .book-hero {
