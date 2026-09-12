@@ -495,5 +495,13 @@
           el.textContent = el.dataset[currency.toLowerCase()];
         });
 
-        if (currencyLabel) {
+                if (currencyLabel) {
           currencyLabel.textContent = currency === 'CAD'
+            ? 'Canadian dollars (CAD)'
+            : 'US dollars (USD)';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
