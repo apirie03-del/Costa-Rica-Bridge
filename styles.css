@@ -78,6 +78,12 @@ a {
   gap: 6px;
 }
 
+.brand-icon {
+  height: 1.8rem;
+  width: auto;
+  margin-right: 6px;
+}
+
 .brand-flag {
   margin-left: 6px;
   display: inline-flex;
